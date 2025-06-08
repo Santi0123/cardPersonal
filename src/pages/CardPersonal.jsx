@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { FaPhone, FaEnvelope } from "react-icons/fa";
 import "./CardPersonal.css";
+import rosaImage from "../photos/rosa_maria.jpeg"; // Ensure you have the image in the correct path
 
 const CardPersonal = () => {
     const navigate = useNavigate();
@@ -38,7 +39,7 @@ const CardPersonal = () => {
                 </div>
                 <div className="card-image">
                     <img
-                        src="/photos/rosa_maria.jpeg"
+                        src= {rosaImage}
                         alt="Rosa Mª Fuentes Espinosa"
                     />
                 </div>
